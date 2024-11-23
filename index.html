@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabuleiro de Xadrez</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-game">
+      <div class="numbers">
+        <div></div>
+        <div>8</div>
+        <div>7</div>
+        <div>6</div>
+        <div>5</div>
+        <div>4</div>
+        <div>3</div>
+        <div>2</div>
+        <div>1</div>
+        <div></div>
+      </div>
+      <div class="container">
+        <div class="letters">
+          <div>a</div>
+          <div>b</div>
+          <div>c</div>
+          <div>d</div>
+          <div>e</div>
+          <div>f</div>
+          <div>g</div>
+          <div>h</div>
+        </div>
+        <!-- 8th -->
+        <div class="square white">
+          <img src="/assets/Torre-preta.png" alt="Torre de xadrez preta" />
+        </div>
+        <div class="square black">
+          <img src="/assets/Cavalo-preto.png" alt="Cavalo de xadrez preto" />
+        </div>
+        <div class="square white">
+          <img src="/assets/Bispo-preto.png" alt="Bispo de xadrez preto" />
+        </div>
+        <div class="square black">
+          <img src="/assets/Rainha-preta.png" alt="Rainha de xadrez preta" />
+        </div>
+        <div class="square white">
+          <img src="/assets/Rei-preto.png" alt="Rei de xadrez preto" />
+        </div>
+        <div class="square black">
+          <img src="/assets/Bispo-preto.png" alt="Bispo de xadrez preto" />
+        </div>
+        <div class="square white">
+          <img src="/assets/Cavalo-preto.png" alt="Cavalo de xadrez preto" />
+        </div>
+        <div class="square black">
+          <img src="/assets/Torre-preta.png" alt="Torre de xadrez preta" />
+        </div>
+        <!-- 7th -->
+        <div id="peoes">
+          <div class="square black">
+            <img src="/assets/Peão-preto.png" alt="Peão de xadrez preto" />
+          </div>
+          <div class="square white">
+            <img src="/assets/Peão-preto.png" alt="Peão de xadrez preto" />
+          </div>
+          <div class="square black">
+            <img src="/assets/Peão-preto.png" alt="Peão de xadrez preto" />
+          </div>
+          <div class="square white">
+            <img src="/assets/Peão-preto.png" alt="Peão de xadrez preto" />
+          </div>
+          <div class="square black">
+            <img src="/assets/Peão-preto.png" alt="Peão de xadrez preto" />
+          </div>
+          <div class="square white">
+            <img src="/assets/Peão-preto.png" alt="Peão de xadrez preto" />
+          </div>
+          <div class="square black">
+            <img src="/assets/Peão-preto.png" alt="Peão de xadrez preto" />
+          </div>
+          <div class="square white">
+            <img src="/assets/Peão-preto.png" alt="Peão de xadrez preto" />
+          </div>
+        </div>
+        <!-- 6th -->
+        <div class="square white"></div>
+        <div class="square black"></div>
+        <div class="square white"></div>
+        <div class="square black"></div>
+        <div class="square white"></div>
+        <div class="square black"></div>
+        <div class="square white"></div>
+        <div class="square black"></div>
+        <!-- 5th -->
+        <div class="square black"></div>
+        <div class="square white"></div>
+        <div class="square black"></div>
+        <div class="square white"></div>
+        <div class="square black"></div>
+        <div class="square white"></div>
+        <div class="square black"></div>
+        <div class="square white"></div>
+        <!-- 4th -->
+        <div class="square white"></div>
+        <div class="square black"></div>
+        <div class="square white"></div>
+        <div class="square black"></div>
+        <div class="square white"></div>
+        <div class="square black"></div>
+        <div class="square white"></div>
+        <div class="square black"></div>
+        <!-- 3rd -->
+        <div class="square black"></div>
+        <div class="square white"></div>
+        <div class="square black"></div>
+        <div class="square white"></div>
+        <div class="square black"></div>
+        <div class="square white"></div>
+        <div class="square black"></div>
+        <div class="square white"></div>
+        <!-- 2nd -->
+        <div id="peoes-2">
+          <div class="square white">
+            <img src="/assets/Peão-branco.png" alt="Peão de xadrez branco" />
+          </div>
+          <div class="square black">
+            <img src="/assets/Peão-branco.png" alt="Peão de xadrez branco" />
+          </div>
+          <div class="square white">
+            <img src="/assets/Peão-branco.png" alt="Peão de xadrez branco" />
+          </div>
+          <div class="square black">
+            <img src="/assets/Peão-branco.png" alt="Peão de xadrez branco" />
+          </div>
+          <div class="square white">
+            <img src="/assets/Peão-branco.png" alt="Peão de xadrez branco" />
+          </div>
+          <div class="square black">
+            <img src="/assets/Peão-branco.png" alt="Peão de xadrez branco" />
+          </div>
+          <div class="square white">
+            <img src="/assets/Peão-branco.png" alt="Peão de xadrez branco" />
+          </div>
+          <div class="square black">
+            <img src="/assets/Peão-branco.png" alt="Peão de xadrez branco" />
+          </div>
+        </div>
+        <!-- 1st -->
+        <div class="square black">
+          <img src="/assets/Torre-branca.png" alt="Torre de xadrez branco" />
+        </div>
+        <div class="square white">
+          <img src="/assets/Cavalo-branco.png" alt="Cavalo de xadrez branco" />
+        </div>
+        <div class="square black">
+          <img src="/assets/Bispo-branco.png" alt="Bispo de xadrez branco" />
+        </div>
+        <div class="square white">
+          <img src="/assets/Rei-branco.png" alt="Rei de xadrez branco" />
+        </div>
+        <div class="square black">
+          <img src="/assets/Rainha-branca.png" alt="Rainha de xadrez branca" />
+        </div>
+        <div class="square white">
+          <img src="/assets/Bispo-branco.png" alt="Bispo de xadrez branco" />
+        </div>
+        <div class="square black">
+          <img src="/assets/Cavalo-branco.png" alt="Cavalo de xadrez branco" />
+        </div>
+        <div class="square white">
+          <img src="/assets/Torre-branca.png" alt="Torre de xadrez branco" />
+        </div>
+
+        <div class="letters-2">
+          <div>a</div>
+          <div>b</div>
+          <div>c</div>
+          <div>d</div>
+          <div>e</div>
+          <div>f</div>
+          <div>g</div>
+          <div>h</div>
+        </div>
+      </div>
+
+      <div class="numbers-2">
+        <div></div>
+        <div>8</div>
+        <div>7</div>
+        <div>6</div>
+        <div>5</div>
+        <div>4</div>
+        <div>3</div>
+        <div>2</div>
+        <div>1</div>
+        <div></div>
+      </div>
+    </div>
+  </body>
+</html>

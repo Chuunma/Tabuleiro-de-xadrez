@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1200px;
+}
+.container {
+  width: 800px;
+  height: 800px;
+  margin: 0px auto;
+  position: relative;
+  bottom: 16px;
+}
+
+.container .letters {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  color: #a8aebf;
+}
+
+.container .letters-2 {
+  width: 800px;
+  display: inline-flex;
+  justify-content: space-around;
+  color: #a8aebf;
+}
+
+.container-game {
+  width: 850px;
+  height: 850px;
+  background-color: #33415c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.numbers div {
+  height: 100px;
+  color: #a8aebf;
+  position: relative;
+  z-index: 1;
+  top: 45px;
+  left: 10px;
+}
+
+.numbers-2 div {
+  height: 100px;
+  color: #a8aebf;
+
+  position: relative;
+  z-index: 1;
+  top: 45px;
+  right: 10px;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.black {
+  background-color: #6e83b3;
+}
+
+.black img {
+  height: 80px;
+  width: 80px;
+}
+
+.white {
+  display: flex;
+  justify-content: center;
+  background-color: #e1dee1;
+}
+
+.white img {
+  height: 80px;
+  width: 80px;
+}
+
+#peoes img {
+  height: 75px;
+  width: 60px;
+  position: relative;
+  top: 1px;
+}
+
+#peoes-2 img {
+  height: 75px;
+  width: 60px;
+  position: relative;
+  top: 1px;
+}
