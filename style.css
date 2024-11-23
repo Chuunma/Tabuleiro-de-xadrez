@@ -10,6 +10,12 @@ body {
   margin-top: 50px;
   height: 1200px;
 }
+
+@media (max-width: 768px) {
+  .container-game {
+    padding: 5px;
+  }
+
 .container {
   width: 800px;
   height: 800px;
